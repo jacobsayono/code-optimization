@@ -8,7 +8,7 @@ This workspace contains two folders:
 - Original: Histogram filter code translated from Python into C++ as seen in this [repository](https://github.com/jacobsayono/robot-localization). 
 - Optimized: This folder also contains Andy's Histogram filter code. You will optimize the code in these files to see how fast you can get main.cpp to run.
 
-There are eight C++ files and seven header files. Each file other than main.cpp contains a function that carries out a specific part of a histogram filter. 
+There are eight C++ files and seven header files. Each file other than main.cpp contains a function that carries out a specific part of a histogram filter. I have separated each function into its own unique file name.
 
 `main.cpp` - prints out how long it takes to run each function
 
